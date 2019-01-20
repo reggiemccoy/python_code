@@ -1,0 +1,5 @@
+name = input("What is your name: ")
+year_born = int(input("What year were you born?"))
+current_year = int(input("What is the current year?"))
+year = str(current_year - year_born)
+print(name + " is about " + year)
