@@ -1,6 +1,6 @@
 #  In the code below I am coverting the input to a string
 
-age = int(input('enter your age'))
+age = int(input('enter your age  '))
 
 if age >= 18:
     print('You are an adult ')
@@ -8,3 +8,4 @@ if age >= 18:
 else:
 
     print('Your not an adult yet ')
+
