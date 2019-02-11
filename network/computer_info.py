@@ -5,7 +5,7 @@ import getpass
 import socket
 import uuid
 import sys
-import subprocess
+import psutil # this had to be installed by pip
 
 
 hostname = socket.gethostname()
@@ -13,10 +13,12 @@ IPAddr = socket.gethostbyname(hostname)
 MacAddr = uuid.getnode()
 username = getpass.getuser()
 PythonVer = sys.version
-
+CPUPercent = psutil.cpu_percent()
+MemVert = psutil.virtual_memory()
 
 print("Your Computer Name is: " + hostname)
-
+print("Current CPU percentage: " + str(CPUPercent))
+print("Current Virtual memory :" + str(MemVert))
 print("Your Computer IP Address is: " + IPAddr)
 print("Your Computer MAC address is:  " + str(MacAddr))
 print("Your username is: " + username)
