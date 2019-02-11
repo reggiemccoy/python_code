@@ -15,9 +15,11 @@ username = getpass.getuser()
 PythonVer = sys.version
 CPUPercent = psutil.cpu_percent()
 MemVert = psutil.virtual_memory()
+NetworkPackets = psutil.net_io_counters()
 
 print("Your Computer Name is: " + hostname)
 print("Current CPU percentage: " + str(CPUPercent))
+print("Current Network Packets:" + str(NetworkPackets))
 print("Current Virtual memory :" + str(MemVert))
 print("Your Computer IP Address is: " + IPAddr)
 print("Your Computer MAC address is:  " + str(MacAddr))
