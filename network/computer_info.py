@@ -4,7 +4,7 @@
 import getpass
 import socket
 import uuid
-import pstats
+
 
 hostname = socket.gethostname()
 IPAddr = socket.gethostbyname(hostname)
