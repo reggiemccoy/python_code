@@ -5,6 +5,7 @@ import getpass
 import socket
 import uuid
 import sys
+import subprocess
 
 
 hostname = socket.gethostname()
