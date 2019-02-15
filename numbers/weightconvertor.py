@@ -31,5 +31,6 @@ elif unit == "P":
           "This is {} kilograms and {} grams.".format(pounds, kg, g))
 
 elif unit != "P" or "K":
-    print("Sorry, that was an invalid option!:")
+    print("Sorry, that was an invalid option!: " + str(unit) + " \"Please only enter P or K:\"")
+
 
