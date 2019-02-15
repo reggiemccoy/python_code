@@ -16,6 +16,7 @@ def poundsToMetric(pounds):
 weight = input('Enter K for kilos  or P for pounds : ')
 
 unit = weight
+unit = unit.upper()  # The following converts lowercase to uppercase
 
 if unit == "K":
     kilograms = float(input("How many Kilos ? "))
@@ -29,4 +30,6 @@ elif unit == "P":
     print("The amount of pounds you entered is {}. " \
           "This is {} kilograms and {} grams.".format(pounds, kg, g))
 
+elif unit != "P" or "K":
+    print("Sorry, that was an invalid option!:")
 
