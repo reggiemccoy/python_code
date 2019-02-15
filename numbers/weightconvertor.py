@@ -1,3 +1,4 @@
+# The following script converts units of weight
 
 def metricTopound(kilograms):
     pounds = kilograms * 2.2
