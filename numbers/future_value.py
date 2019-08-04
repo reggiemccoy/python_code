@@ -12,6 +12,6 @@ years =int(input('Enter the number of years the money will grow:'))
 # Calculate the amount needed to deposit.
 present_value = future_value / (1.0 + rate)**years
 
-# Dispaly the amount needed to deposit:
+# Display the amount needed to deposit:
 print('Yo will need to deposit this amount:', present_value)
 
