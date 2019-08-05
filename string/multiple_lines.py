@@ -1,0 +1,1 @@
+print("Monday's sales are ")
