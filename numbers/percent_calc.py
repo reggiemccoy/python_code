@@ -9,4 +9,4 @@ discount = orginal_price * .02
 sale_price = orginal_price - discount
 
 # Display the sale price
-print(' The sale price is', sale_price)50
+print(' The sale price is', sale_price)
