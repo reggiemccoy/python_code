@@ -1,21 +1,21 @@
 
 
-b = int(input('Please enter weight to load on the bar: '))
-bartype = int(input('Please enter bar weight: '))
+b = int(input('Please enter weight to load on the bar: '))-int(input('Please enter bar weight : '))
+# bartype = int(input('Please enter bar weight: '))
 
 # b = (b - bartype)
-x = bartype
-b = (b-x)
+# x = bartype
+# b = (b-x)
 
 # print(b//45, "45's")
 print(int(b//45), "45's") if int(b//45)%2 == 0 else print(int(b//45)-1, "45's");
 
-b = b%45
+#b = b%45
 # //  Divides and returns the integer value of the quotient. It dumps the digits after the decimal.
 # %   Divides and returns the value of the remainder.
 
-print(int(b//25), "25's")
-# print(int(b//25), "25's") if int(b//25)%2 == 0 else print(int(b//25)-1, "25's");
+print(b//25, "25's")
+# print(int(b//25), "25's") if int(b//25)%2 == 0 else print(int(b//25)+1, "25's");
 b = b%25
 
 # print(b//10, "10's")
