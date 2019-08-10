@@ -2,6 +2,8 @@ b = int(input('Please enter weight to load on the bar: '))
 bartype = int(input('Please enter bar weight: '))
 
 b = (b - bartype)
+
+
 print(b//45, "45's")
 b = b%45
 # //  Divides and returns the integer value of the quotient. It dumps the digits after the decimal.
