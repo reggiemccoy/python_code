@@ -1,0 +1,12 @@
+b = int(input('Please enter weight to load on the bar :  '))-int(input('Please enter bar weight :  '))
+print(int(b//45), "45's") # int() to convert float value to int
+b = b%45
+print(int(b//25), "25's")
+b = b%25
+print(int(b//10), "10's")
+b = b%10
+# I need to print 2.5 without leading zeros
+print(int(b/2.5), "2.5's")
+b = b%2.5
+print(int(b//5), "5's")
+b = b%5
