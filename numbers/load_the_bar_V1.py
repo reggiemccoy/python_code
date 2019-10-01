@@ -16,7 +16,7 @@ b = b%45
 
 # //  Divides and returns the integer value of the quotient. It dumps the digits after the decimal.
 # %   Divides and returns the value of the remainder.
-# Bug if enter
+# I need to get total of weight from the 45 and subtract it from the bar weight next.
 # x = b
 
 
