@@ -1,6 +1,6 @@
 #  In the code below I am coverting the input to a string
 
-marks = int(input('Enter your marks'))
+marks = int(input('Enter your marks/ grades:    '))
 if marks >= 90:
     print('Grade A')
 
